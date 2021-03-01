@@ -9,9 +9,5 @@ edition = "2018"
 [dependencies]
 TracedLibrary = { path = "../TracedLibrary" }
 tracing-subscriber = { version = "0.2.15" }
-
-tracing-chrome = { git = "https://github.com/thoren-d/tracing-chrome", branch="develop", optional = true}
-
 tracing-opentelemetry = { version= "0.11.0"}
-# opentelemetry = "0.12.0"
 opentelemetry-jaeger = {version = "0.11.0" }
