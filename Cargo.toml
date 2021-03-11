@@ -8,6 +8,7 @@ edition = "2018"
 
 [dependencies]
 TracedLibrary = { path = "../TracedLibrary" }
+tracing = { version = "0.1.24", default-features = false }
 tracing-subscriber = { version = "0.2.15" }
 tracing-opentelemetry = { version= "0.11.0"}
 opentelemetry-jaeger = {version = "0.11.0" }
